@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "make-homeschool": {
+      "type": "http",
+      "url": "https://makehomeschool.com/mcp"
+    }
+  }
+}

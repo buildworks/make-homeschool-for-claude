@@ -1,0 +1,14 @@
+{
+  "name": "make-homeschool",
+  "displayName": "Make Homeschool",
+  "version": "1.0.0",
+  "description": "Build homeschool courses, lessons, activities, and quizzes just how you like them, with Make Homeschool's connector. Claude can start from scratch or from a book you already have. You review everything before your student sees it.",
+  "author": {
+    "name": "Buildworks, LLC",
+    "email": "info@makehomeschool.com",
+    "url": "https://makehomeschool.com"
+  },
+  "homepage": "https://makehomeschool.com/help/connect-an-ai-agent",
+  "keywords": ["homeschool", "education", "lesson-planning", "curriculum"],
+  "license": "MIT"
+}
