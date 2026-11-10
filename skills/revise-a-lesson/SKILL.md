@@ -5,10 +5,11 @@ description: Change a Make Homeschool lesson that no student has yet. Use when t
 
 To change a lesson in Make Homeschool:
 
-1. **Read it first** with `get_lesson`. Note its `version` and its `outline`, which numbers every block, including ones you can't build (such as a video the parent added).
+1. **Read it first** with `get_lesson`. Note its `version` and its `outline`, which numbers every block, including ones the parent added.
+   A `memory` block's recall comes back without its words. Keep it by number to keep them; sent back, new words are picked.
 2. **Send the whole new block list** to `revise_lesson`, with that `version`:
    - keep each block you aren't changing as `{ "keep": N }`, using its number from the outline;
-   - put new blocks where they belong, in the same shape the building tools take;
+   - put new blocks where they belong, in the same shape the building tools take: a video in a `watch` block, whatever site it's on, and only lesson content in anything the student reads;
    - to replace a block, leave it out and put its new version where it was;
    - add `title` only to rename the lesson.
 
